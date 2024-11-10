@@ -1,24 +1,4 @@
-
-:root {
-
-    --font-family: 'Roboto', sans-serif;
-    --second-family: 'Raleway', sans-serif;
-    
-    --white: #fff;
-    --navy-blue: #2e2f42;
-    --navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --grey: rgba(46, 47, 66, 0.7);
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --dairy: #fcfcfc;
-    --cloud: #f4f4fd;
-        
-}
-
+/* --------------------------------------------------------body section------------------------------------------------------- */
 
 body {
     font-family: 'Roboto', sans-serif;
