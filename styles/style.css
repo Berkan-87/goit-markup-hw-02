@@ -1,0 +1,210 @@
+
+:root {
+
+    --font-family: 'Roboto', sans-serif;
+    --second-family: 'Raleway', sans-serif;
+    
+    --white: #fff;
+    --navy-blue: #2e2f42;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --grey: rgba(46, 47, 66, 0.7);
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --dairy: #fcfcfc;
+    --cloud: #f4f4fd;
+        
+}
+
+
+body {
+    font-family: var(--font-family);
+    color: var(--slate);
+    background-color: var(--white);
+    padding: 20px;
+}
+
+
+ul {
+    padding: 0px;
+    margin: 0x;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------header section------------------------------------------------------- */
+
+.logo1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.navbar .logo2 {
+    color: var(--navy-blue);
+}
+
+.nav-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.contact {
+    font-style: normal;
+}
+
+.contact-tab-link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-tab-link:hover,
+.contact-tab-link:focus {
+    color: var(--ocean);
+}
+
+
+
+/* --------------------------------------------------------hero section------------------------------------------------------- */
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+}
+
+
+/* --------------------------------------------------------features section------------------------------------------------------- */
+
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+
+/* --------------------------------------------------------team section------------------------------------------------------- */
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-tab {
+    background-color: var(--white);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+
+/* --------------------------------------------------------portfolio section------------------------------------------------------- */
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.port-cd-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.port-cd-tex {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+
+/* --------------------------------------------------------footer section------------------------------------------------------- */
+
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer .logo2 {
+    color: var(--cloud);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+
