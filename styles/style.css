@@ -1,27 +1,40 @@
 /* --------------------------------------------------------body section------------------------------------------------------- */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
 }
 
 
 ul {
-    padding: 0px;
-    margin: 0x;
-    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
+
+
 
 a {
     text-decoration: none;
 }
 
+.btn {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #404bbf;
+}
+
+
 /* --------------------------------------------------------header section------------------------------------------------------- */
 
 .logo1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -35,7 +48,7 @@ a {
 }
 
 .nav-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -48,7 +61,7 @@ a {
 }
 
 .contact-tab-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -75,7 +88,7 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -84,7 +97,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: white;
+    color: #ffffff;
     background-color: #4d5ae5;
 }
 
@@ -124,7 +137,7 @@ a {
 }
 
 .team-tab {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .team-name {
@@ -174,7 +187,7 @@ a {
 
 
 .footer {
-    background-color:#2e2f42;
+    background-color: #2e2f42;
 }
 
 .footer .logo2 {
